@@ -1,0 +1,159 @@
+.main_content {
+    padding: 20px;
+}
+
+.link {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #3d6b99;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.font_content {
+    color: #515151;
+}
+
+.title_content h1 {
+    color: cadetblue;
+}
+
+.display_flex_asi-main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.aside_right {
+    background: center;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background_aside_menu {
+    background-color: cadetblue;
+    padding: 0px 18px 0px 18px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.background_aside_menu:hover {
+    background: #cf8a2a;
+}
+
+.background_aside_menu p {
+    width: 14rem;
+}
+
+.gap_aside_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.Articles_high_school {
+    background: #d3d3d369;
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.title_Articles {
+    text-align: center;
+    color: gray;
+    margin-top: 20%;
+}
+
+.title_Articles h1 {
+    margin: 0;
+}
+
+.title_Articles p {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.img_title_articles {
+    display: flex;
+    gap: 5px;
+}
+
+.img_title_articles img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+.student_upper_school {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.btn_artiles {
+    font-family: "Poppins", serif;
+    background: none;
+    border: none;
+    font-size: 16px;
+    display: contents;
+    cursor: pointer;
+}
+
+.btn_artiles:hover {
+    color: cadetblue;
+}
+
+
+
+.ft_visit_our_campus {
+    background: #d3d3d3ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    margin-bottom: -20px;
+}
+
+.ft_visit_our_campus div p {
+    font-size: 24px;
+    color: #cf8a2a;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.ft_content {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    background: cadetblue;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.ft_content:hover {
+    background-color: #cf8a2a;
+}

@@ -1,0 +1,88 @@
+.background-projects_user {
+    background: gray;
+    width: 77%;
+    position: relative;
+    height: calc(274px);
+    display: grid;
+    border-radius: 50px;
+    align-items: end;
+    justify-items: end;
+}
+
+.background-projects_user button {
+
+    cursor: pointer;
+}
+
+.article-ur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border-avatar div h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.avarta-user {
+    width: 200px;
+    height: 200px;
+    z-index: 12;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    border: 11px solid whitesmoke;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-st-user {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.menu-st-user.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    position: relative;
+
+}
+
+.setting-menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    top: 4em;
+    position: relative;
+}
+
+.setting-menu li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.span-btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,179 @@
+/* Sử dụng CSS để thay đổi cursor khi di chuột qua một phần tử */
+body {
+  /* cursor: url('Re_ Zero Adorable Rem--cursor--SweezyCursors.cur') 16 16,
+  auto; */
+  /* 16, 16 là vị trí hotspot */
+}
+
+
+
+.output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.output img {
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+.App {}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  max-width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+.td_btn {
+  padding: 5px;
+  border-radius: 18%;
+  border: 0;
+  background: darkorange;
+  color: white;
+  cursor: pointer;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  color: lightgreen;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Màu nền tối mờ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  /* Đảm bảo nó luôn ở trên cùng */
+}
+
+.loading span {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  animation: loading 1s infinite;
+  animation-delay: calc(0.1s* var(--i));
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+
+@keyframes loading {
+
+  0%,
+  40%,
+  100% {
+    transform: translate(0)
+  }
+
+  20% {
+    transform: translatey(-20px);
+  }
+}
+
+
+.img_gif {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img_gif_span {
+  width: 100px;
+  margin-right: 10px;
+
+}
+
+.display_table_js {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div_span_js {
+  position: relative;
+  z-index: 1;
+}
+
+.chim_mua {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: cursive;
+  color: red;
+  align-items: flex-end;
+}
+
+.network-error {
+  color: red;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.network-error span {
+  background-image: url("/public/images/6oa.gif");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+}

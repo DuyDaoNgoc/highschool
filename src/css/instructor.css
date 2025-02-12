@@ -1,0 +1,44 @@
+.ar-instructors {
+    padding: 20px;
+    background: #dcdcdc8c;
+}
+
+.figure_instructors {
+    width: 300px;
+    background: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ar-instructors figcaption {
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    color: cadetblue;
+}
+
+.ar-instructors small {
+    color: cadetblue;
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 30px;
+    justify-content: center;
+
+}
+
+.figure_instructors ul li {
+    list-style: upper-roman;
+
+}
+
+.img-instructors {
+    width: 300px;
+    object-fit: cover;
+}
+
+.ins-fig-content {
+    display: flex;
+}

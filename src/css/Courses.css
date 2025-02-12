@@ -1,0 +1,210 @@
+.AG_3d_high-school {
+    width: 100%;
+    position: relative;
+    perspective: 1000px;
+    height: 125vh;
+    overflow: hidden;
+    top: -86px;
+
+}
+
+.what-vanlang {
+    background-image: url("/public/images/vanlang-highschool.jpg");
+
+    width: 1019px;
+    height: 320px;
+}
+
+.Courses-main {
+    display: flex;
+    padding: 42px;
+    line-height: 29px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax {
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100%;
+}
+
+.AG_high_school {
+    background-image: url('/public/images/banneraghs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(37px) scale(1.);
+    transition: transform 1s ease-out;
+}
+
+.parallax:hover .AG_high_school,
+.content_Ag_high_school {
+    transform: translateZ(2px) scale(1.2);
+}
+
+.content_Ag_high_school {
+    background: white;
+    z-index: 12;
+    position: absolute;
+    top: 16%;
+    left: 8%;
+    box-shadow: 10px 0px 78px -16px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 556px;
+}
+
+.content_courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_courses p {
+    font-size: 0.85rem;
+}
+
+.content_courses div h1 {
+    margin-bottom: 0;
+    color: cadetblue;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.content_courses div h1 p {
+    color: black;
+    font-size: 32px;
+    margin-top: 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.bold-font {
+    font-weight: 700;
+}
+
+.text-decretion_content {
+    text-decoration: underline;
+}
+
+.content_courses button {
+    padding: 23px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    background: cadetblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.content_courses button:hover {
+    background: #cf8a2a;
+}
+
+.title_courses {
+    width: 100%;
+}
+
+.vanlang_scholarship {
+    display: flex;
+    flex-direction: column;
+}
+
+.vanlang_scholarship h1 {
+    text-align: center;
+    color: cadetblue;
+
+}
+
+.hr_school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr_vanlang {
+    width: 30%;
+    height: 3px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.stack {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.stack img {
+    width: 200px;
+    height: 107px;
+    background: #cf8a2a;
+    filter: invert(1);
+    padding: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.stack h1 {
+    color: black;
+
+}
+
+.stack p {
+    margin-top: 0;
+}
+
+.stack_all {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.title-courses h1 {
+    display: flex;
+    color: black;
+    font-size: 19px;
+}
+
+.btn-main-courses {
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    background: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-main-courses:hover {
+    background: #cf8a2a;
+
+}
+
+.color-bold-courses b {
+    color: darkmagenta;
+}
+
+.decrection-courses {
+    text-decoration: underline;
+}

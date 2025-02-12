@@ -1,0 +1,116 @@
+.form-user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    padding-right: 15px;
+
+
+    padding: 10px;
+}
+
+.menu-user {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: "Open Sans", serif;
+}
+
+.menu-user button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.menu_a-sr {
+    text-decoration: none;
+    color: white;
+}
+
+/* Ẩn checkbox */
+.main-pj .toggle-checkbox {
+    display: none;
+}
+
+.main-pj-v2 .toggle-checkbox {
+    display: none;
+}
+
+/* Cấu trúc chung */
+.main-pj {
+    list-style: none;
+    display: flex;
+    width: max-content;
+    position: relative;
+    margin-right: 52px;
+}
+
+.main-pj-v2 {
+    list-style: none;
+    display: flex;
+    /* width: max-content; */
+    position: relative;
+    margin-right: 52px;
+}
+
+.main-pj-v2 li img {
+    cursor: pointer;
+    filter: invert(1);
+    width: 64px;
+    position: relative;
+}
+
+.main-pj li img {
+    cursor: pointer;
+    filter: invert(1);
+    width: 64px;
+    position: relative;
+}
+
+/* Menu con ẩn mặc định */
+.background-pj {
+    background: white;
+    padding: 20px;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 3em;
+    left: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.background-pj-main {
+    background: white;
+    padding: 20px;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 3em;
+    left: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+.background-pj-main li button:hover {
+    color: #cf8a2a;
+}
+
+.background-pj li button:hover {
+
+    color: #cf8a2a;
+}
+
+
+
+.main-pj-v2 .toggle-checkbox:checked~.background-pj-main {
+    display: flex;
+}
+
+.main-pj .toggle-checkbox:checked~.background-pj {
+    display: flex;
+}
+

@@ -1,0 +1,33 @@
+.nav_menu_ft {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background: black;
+    top: -2px;
+}
+
+.nav_menu_ft div img {
+    width: 45%;
+}
+
+.nav_menu_main {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background: black;
+    top: -2px;
+}
+
+.nav_menu_main div img {
+    width: 55px;
+}
+
+.padd_nav_menu {
+    padding-bottom: 144px;
+}
